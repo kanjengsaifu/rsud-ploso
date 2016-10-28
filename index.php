@@ -17,7 +17,7 @@ require("_koneksi.php");
 
         <div class="loginwrapper">
             <div class="loginwrap zindex100 animate2 bounceInDown">
-                <h1 class="logintitle"><span class="iconfa-lock"></span> Aplikasi Distribusi Penjualan <span class="subtitle">Silahkan masuk untuk memulai !</span></h1>
+                <h1 class="logintitle"><span class="iconfa-lock"></span> Sistem Persediaan Gudang Obat <span class="subtitle">Silahkan masuk untuk memulai !</span></h1>
 		<div class="loginwrapperinner">
                     <form id="loginform" action="index.php?login=1" method="post">
                         <p class="animate4 bounceIn"><input type="text" id="username" name="NamaPengguna" placeholder="ID Pengguna atau Nama Pengguna" autofocus /></p>

@@ -7,7 +7,7 @@ require("_koneksi.php");
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<title>Software Inventori Obat</title>
+	<title>Software Inventori Obat | RSUD Ploso Jombang</title>
         <link rel="stylesheet" href="css/style.default.css" type="text/css" />
         <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
         <script type="text/javascript" src="js/jquery-migrate-1.1.1.min.js"></script>
@@ -23,7 +23,7 @@ require("_koneksi.php");
                         <p class="animate4 bounceIn"><input type="text" id="username" name="NamaPengguna" placeholder="ID Pengguna atau Nama Pengguna" autofocus /></p>
                         <p class="animate5 bounceIn"><input type="password" id="password" name="Sandi" placeholder="Sandi" /></p>
                         <p class="animate6 bounceIn"><button class="btn btn-default btn-block">Masuk</button></p>
-                        <p class="animate7 fadeIn"><a href="http://portalphantom.blogspot.com/" target="_self">&copy; <?php echo date("Y"); ?> | FT SI Unipdu 2013</a></p>
+                        <p class="animate7 fadeIn"><a href="http://portalphantom.blogspot.com/" target="_self">&copy; <?php echo date("Y"); ?> | RSUD Ploso Jombang 2016</a></p>
                     </form>
 		</div><!--loginwrapperinner-->
             </div>

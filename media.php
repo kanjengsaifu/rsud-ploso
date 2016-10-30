@@ -3,7 +3,7 @@ session_start();
 if(isset($_SESSION['NamaPengguna']) or isset($_SESSION['IdUser']) and isset($_SESSION['Sandi']) and isset($_SESSION['Level'])){
     require("_koneksi.php");
     $IdUser = $_SESSION['IdUser'];
-    $Level = $_SESSION['Level'];
+    $Level = 3;
     $NamaPengguna = $_SESSION['NamaPengguna'];
     $Sandi = $_SESSION['Sandi'];
     $qry = "SELECT * FROM users WHERE IdUser = '$IdUser' OR NamaPengguna = '$NamaPengguna' AND Sandi = '$Sandi' AND IdLevel = '$Level'";
